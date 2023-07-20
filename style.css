@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Bebas Neue", sans-serif;
+  background: #eaeaea;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  height: auto;
+  background-image: url("img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile > img {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #222;
+  border-radius: 100%;
+}
+
+.profile > h1 {
+  font-family: "Chela One", cursive;
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h1 > img {
+  width: 18px;
+  height: 18px;
+}
+
+.profile > h2 {
+  font-family: "VT323", monospace;
+  color: #fff;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  text-align: center;
+  font-style: italic;
+}
+
+.link {
+  font-family: "VT323", monospace;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.link > h3 {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.link > a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  background-color: #eaeaea;
+  color: #222;
+  font-size: 24px;
+  text-align: center;
+  border: 3px solid #222;
+  border-radius: 7px;
+  margin: 5px 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.link > a:hover {
+  background-color: azure;
+}
+
+.link > a > img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: -3px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer > i {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.icon > a > img {
+  background: #eaeaea;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 10px 5px;
+}
+
+.icon > a > img:hover {
+  background-color: azure;
+}
