@@ -7,7 +7,7 @@ shareBtn.addEventListener("click", (event) => {
     navigator
       .share({
         text: "Check This Out: ",
-        url: "http://127.0.0.1:5500/index.html",
+        url: "https://farhanazrahsb.github.io/linktr-ee.github.io/",
       })
       .then(() => {
         console.log("Thanks for sharing!");
